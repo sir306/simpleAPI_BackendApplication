@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "61ae975bc4796a3d6c182542"
+  },
+  "name": "Eminem"
+},{
+  "_id": {
+    "$oid": "61aef2b722376c137d7ba150"
+  },
+  "name": "Machine Gun Kelly"
+}]

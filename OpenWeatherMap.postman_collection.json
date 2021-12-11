@@ -1,0 +1,1059 @@
+{
+	"info": {
+		"_postman_id": "03601398-4c42-4e94-a297-871740e076d0",
+		"name": "OpenWeatherMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetWeatherByCityInCelius",
+			"item": [
+				{
+					"name": "Get Min and Max from city in celsius (Auckland)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q=Auckland&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Auckland"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Min and Max from city in celsius (Auckland)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?q=Auckland&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "Auckland"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:09:51 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "501"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?q=auckland&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 174.7667,\n        \"lat\": -36.8667\n    },\n    \"weather\": [\n        {\n            \"id\": 500,\n            \"main\": \"Rain\",\n            \"description\": \"light rain\",\n            \"icon\": \"10d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 22.2,\n        \"feels_like\": 22.3,\n        \"temp_min\": 20.51,\n        \"temp_max\": 22.95,\n        \"pressure\": 1018,\n        \"humidity\": 70\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 3.13,\n        \"deg\": 235,\n        \"gust\": 4.47\n    },\n    \"rain\": {\n        \"1h\": 0.24\n    },\n    \"clouds\": {\n        \"all\": 52\n    },\n    \"dt\": 1638248401,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2012285,\n        \"country\": \"NZ\",\n        \"sunrise\": 1638204954,\n        \"sunset\": 1638257005\n    },\n    \"timezone\": 46800,\n    \"id\": 2193733,\n    \"name\": \"Auckland\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Min and Max from city in celsius (Paris)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Paris"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Min and Max from city in celsius (Paris)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "Paris"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:09:55 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "487"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?q=paris&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 2.3488,\n        \"lat\": 48.8534\n    },\n    \"weather\": [\n        {\n            \"id\": 300,\n            \"main\": \"Drizzle\",\n            \"description\": \"light intensity drizzle\",\n            \"icon\": \"09n\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 3.78,\n        \"feels_like\": 2.79,\n        \"temp_min\": 2.38,\n        \"temp_max\": 4.5,\n        \"pressure\": 1018,\n        \"humidity\": 91\n    },\n    \"visibility\": 8000,\n    \"wind\": {\n        \"speed\": 1.34,\n        \"deg\": 225,\n        \"gust\": 3.13\n    },\n    \"clouds\": {\n        \"all\": 90\n    },\n    \"dt\": 1638248838,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2041230,\n        \"country\": \"FR\",\n        \"sunrise\": 1638256899,\n        \"sunset\": 1638287841\n    },\n    \"timezone\": 3600,\n    \"id\": 2988507,\n    \"name\": \"Paris\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Min and Max from city in celsius (London)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "London"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Min and Max from city in celsius (London)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "London"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:10:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "479"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?q=london&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": -0.1257,\n        \"lat\": 51.5085\n    },\n    \"weather\": [\n        {\n            \"id\": 802,\n            \"main\": \"Clouds\",\n            \"description\": \"scattered clouds\",\n            \"icon\": \"03n\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 7.53,\n        \"feels_like\": 7.53,\n        \"temp_min\": 6.4,\n        \"temp_max\": 9.03,\n        \"pressure\": 1013,\n        \"humidity\": 89\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 0.89,\n        \"deg\": 266,\n        \"gust\": 3.58\n    },\n    \"clouds\": {\n        \"all\": 40\n    },\n    \"dt\": 1638248674,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2019646,\n        \"country\": \"GB\",\n        \"sunrise\": 1638258166,\n        \"sunset\": 1638287762\n    },\n    \"timezone\": 0,\n    \"id\": 2643743,\n    \"name\": \"London\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Min and Max from city in celsius (Chrictchurch)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q=Christchurch&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Christchurch"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Min and Max from city in celsius (Chrictchurch)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?q=Christchurch&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "Christchurch"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:10:05 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "496"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?q=christchurch&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 172.6333,\n        \"lat\": -43.5333\n    },\n    \"weather\": [\n        {\n            \"id\": 802,\n            \"main\": \"Clouds\",\n            \"description\": \"scattered clouds\",\n            \"icon\": \"03d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 18.71,\n        \"feels_like\": 18.23,\n        \"temp_min\": 16.38,\n        \"temp_max\": 20.51,\n        \"pressure\": 1022,\n        \"humidity\": 61\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 0.89,\n        \"deg\": 190,\n        \"gust\": 3.13\n    },\n    \"clouds\": {\n        \"all\": 27\n    },\n    \"dt\": 1638248275,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2017931,\n        \"country\": \"NZ\",\n        \"sunrise\": 1638204269,\n        \"sunset\": 1638258714\n    },\n    \"timezone\": 46800,\n    \"id\": 2192362,\n    \"name\": \"Christchurch\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Min and Max from city in celsius (Wellington)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q=Wellington&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Wellington"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Min and Max from city in celsius (Wellington)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?q=Wellington&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "Wellington"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:10:10 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "480"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?q=wellington&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 174.7756,\n        \"lat\": -41.2866\n    },\n    \"weather\": [\n        {\n            \"id\": 804,\n            \"main\": \"Clouds\",\n            \"description\": \"overcast clouds\",\n            \"icon\": \"04d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 15.46,\n        \"feels_like\": 15.57,\n        \"temp_min\": 13.84,\n        \"temp_max\": 17.65,\n        \"pressure\": 1016,\n        \"humidity\": 96\n    },\n    \"visibility\": 6000,\n    \"wind\": {\n        \"speed\": 6.17,\n        \"deg\": 190\n    },\n    \"clouds\": {\n        \"all\": 90\n    },\n    \"dt\": 1638249002,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2007945,\n        \"country\": \"NZ\",\n        \"sunrise\": 1638204191,\n        \"sunset\": 1638257764\n    },\n    \"timezone\": 46800,\n    \"id\": 2179537,\n    \"name\": \"Wellington\",\n    \"cod\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GetWeatherByCoordinatesInCelsius",
+			"item": [
+				{
+					"name": "Get Weather by coordinates (lon:-73.99, lat: 40.73)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?lat=40.73&lon=-73.99&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "40.73"
+								},
+								{
+									"key": "lon",
+									"value": "-73.99"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Weather by coordinates (lon:-73.99, lat: 40.73)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?lat=40.73&lon=-73.99&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "lat",
+											"value": "40.73"
+										},
+										{
+											"key": "lon",
+											"value": "-73.99"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Dec 2021 01:49:58 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "486"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?lat=40.73&lon=-73.99&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": -73.9946,\n        \"lat\": 40.727\n    },\n    \"weather\": [\n        {\n            \"id\": 804,\n            \"main\": \"Clouds\",\n            \"description\": \"overcast clouds\",\n            \"icon\": \"04n\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 6.19,\n        \"feels_like\": 4.17,\n        \"temp_min\": 2.27,\n        \"temp_max\": 8.85,\n        \"pressure\": 1021,\n        \"humidity\": 54\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 2.68,\n        \"deg\": 138,\n        \"gust\": 4.47\n    },\n    \"clouds\": {\n        \"all\": 90\n    },\n    \"dt\": 1638409451,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2003558,\n        \"country\": \"US\",\n        \"sunrise\": 1638360069,\n        \"sunset\": 1638394170\n    },\n    \"timezone\": -18000,\n    \"id\": 5128581,\n    \"name\": \"New York\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Weather by coordinates (lon: 8.6, lat: 45.43)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?lat=45.43&lon=8.6&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "45.43"
+								},
+								{
+									"key": "lon",
+									"value": "8.6"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Weather by coordinates (lon: 8.6, lat: 45.43)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?lat=45.43&lon=8.6&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "lat",
+											"value": "45.43"
+										},
+										{
+											"key": "lon",
+											"value": "8.6"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Dec 2021 01:50:10 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "508"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?lat=45.43&lon=8.6&units=metric"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 8.6,\n        \"lat\": 45.43\n    },\n    \"weather\": [\n        {\n            \"id\": 804,\n            \"main\": \"Clouds\",\n            \"description\": \"overcast clouds\",\n            \"icon\": \"04n\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 5.06,\n        \"feels_like\": 5.06,\n        \"temp_min\": 4,\n        \"temp_max\": 6.48,\n        \"pressure\": 1002,\n        \"humidity\": 85,\n        \"sea_level\": 1002,\n        \"grnd_level\": 985\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 0.49,\n        \"deg\": 271,\n        \"gust\": 0.81\n    },\n    \"clouds\": {\n        \"all\": 100\n    },\n    \"dt\": 1638409810,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2012345,\n        \"country\": \"IT\",\n        \"sunrise\": 1638427585,\n        \"sunset\": 1638459844\n    },\n    \"timezone\": 3600,\n    \"id\": 3172189,\n    \"name\": \"Novara\",\n    \"cod\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Weather by coordinates (lon: 144.96, lat: -37.81)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?lat=-37.81&lon=144.96&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "-37.81"
+								},
+								{
+									"key": "lon",
+									"value": "144.96"
+								},
+								{
+									"key": "units",
+									"value": "metric"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Weather by coordinates (lon: 144.96, lat: -37.81)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/weather?lat=-37.81&lon=144.96&units=metric&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"weather"
+									],
+									"query": [
+										{
+											"key": "lat",
+											"value": "-37.81"
+										},
+										{
+											"key": "lon",
+											"value": "144.96"
+										},
+										{
+											"key": "units",
+											"value": "metric"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Dec 2021 01:15:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "506"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/weather?lat=-37.81&lon=144.96"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"coord\": {\n        \"lon\": 144.9578,\n        \"lat\": -37.8082\n    },\n    \"weather\": [\n        {\n            \"id\": 500,\n            \"main\": \"Rain\",\n            \"description\": \"light rain\",\n            \"icon\": \"10d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 304.53,\n        \"feels_like\": 304.56,\n        \"temp_min\": 300.68,\n        \"temp_max\": 307.35,\n        \"pressure\": 1009,\n        \"humidity\": 40\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 3.58,\n        \"deg\": 60,\n        \"gust\": 4.92\n    },\n    \"rain\": {\n        \"1h\": 0.12\n    },\n    \"clouds\": {\n        \"all\": 0\n    },\n    \"dt\": 1638407667,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2036834,\n        \"country\": \"AU\",\n        \"sunrise\": 1638384726,\n        \"sunset\": 1638437234\n    },\n    \"timezone\": 39600,\n    \"id\": 2158177,\n    \"name\": \"Melbourne\",\n    \"cod\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ListCitiesAndCoordinatesByBox",
+			"item": [
+				{
+					"name": "ByBox(lon 12-13)(lat 41-42)(zoom 10)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/box/city?bbox=12,41,13,42,10&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"box",
+								"city"
+							],
+							"query": [
+								{
+									"key": "bbox",
+									"value": "12,41,13,42,10"
+								},
+								{
+									"key": "appid",
+									"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "ByBox(lon 12-13)(lat 41-42)(zoom 10)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "api.openweathermap.org/data/2.5/box/city?bbox=12,41,13,42,10&appid=df1fc93ecda45cc4cbe4c6ae9270ebee",
+									"host": [
+										"api",
+										"openweathermap",
+										"org"
+									],
+									"path": [
+										"data",
+										"2.5",
+										"box",
+										"city"
+									],
+									"query": [
+										{
+											"key": "bbox",
+											"value": "12,41,13,42,10"
+										},
+										{
+											"key": "appid",
+											"value": "df1fc93ecda45cc4cbe4c6ae9270ebee"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "openresty"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 05:09:01 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "4170"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Cache-Key",
+									"value": "/data/2.5/box/city?bbox=12,41,13,42,10"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "GET, POST"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"cod\": 200,\n    \"calctime\": 0.003149324,\n    \"cnt\": 11,\n    \"list\": [\n        {\n            \"id\": 3183005,\n            \"dt\": 1638245355,\n            \"name\": \"Anzio\",\n            \"coord\": {\n                \"Lon\": 12.6271,\n                \"Lat\": 41.4475\n            },\n            \"main\": {\n                \"temp\": 4.73,\n                \"feels_like\": -0.71,\n                \"temp_min\": 2.41,\n                \"temp_max\": 5.89,\n                \"pressure\": 1014,\n                \"sea_level\": 1014,\n                \"grnd_level\": 1013,\n                \"humidity\": 74\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 9.79,\n                \"deg\": 347\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 0\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3182957,\n            \"dt\": 1638245238,\n            \"name\": \"Aprilia\",\n            \"coord\": {\n                \"Lon\": 12.6501,\n                \"Lat\": 41.5895\n            },\n            \"main\": {\n                \"temp\": 3.85,\n                \"feels_like\": -0.92,\n                \"temp_min\": 0.85,\n                \"temp_max\": 5.46,\n                \"pressure\": 1014,\n                \"sea_level\": 1014,\n                \"grnd_level\": 1005,\n                \"humidity\": 75\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 6.87,\n                \"deg\": 349\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 0\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3170342,\n            \"dt\": 1638245237,\n            \"name\": \"Pomezia\",\n            \"coord\": {\n                \"Lon\": 12.5052,\n                \"Lat\": 41.667\n            },\n            \"main\": {\n                \"temp\": 3.64,\n                \"feels_like\": 0.77,\n                \"temp_min\": 0.7,\n                \"temp_max\": 5.31,\n                \"pressure\": 1014,\n                \"humidity\": 77\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 3.13,\n                \"deg\": 26\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 0\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3178631,\n            \"dt\": 1638245355,\n            \"name\": \"Cisterna di Latina\",\n            \"coord\": {\n                \"Lon\": 12.8281,\n                \"Lat\": 41.5908\n            },\n            \"main\": {\n                \"temp\": 3.72,\n                \"feels_like\": -0.22,\n                \"temp_min\": 0.79,\n                \"temp_max\": 5.4,\n                \"pressure\": 1015,\n                \"humidity\": 75\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 4.92,\n                \"deg\": 354\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 1\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3164630,\n            \"dt\": 1638245355,\n            \"name\": \"Velletri\",\n            \"coord\": {\n                \"Lon\": 12.7793,\n                \"Lat\": 41.6692\n            },\n            \"main\": {\n                \"temp\": 2.44,\n                \"feels_like\": -1.82,\n                \"temp_min\": -0.22,\n                \"temp_max\": 4.39,\n                \"pressure\": 1015,\n                \"humidity\": 81\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 4.92,\n                \"deg\": 354\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 2\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3174741,\n            \"dt\": 1638245355,\n            \"name\": \"Lido di Ostia\",\n            \"coord\": {\n                \"Lon\": 12.2765,\n                \"Lat\": 41.7321\n            },\n            \"main\": {\n                \"temp\": 4.35,\n                \"feels_like\": 1.66,\n                \"temp_min\": 0.94,\n                \"temp_max\": 5.88,\n                \"pressure\": 1014,\n                \"humidity\": 68\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 3.09,\n                \"deg\": 340\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 0\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3175058,\n            \"dt\": 1638245355,\n            \"name\": \"Latina\",\n            \"coord\": {\n                \"Lon\": 12.9043,\n                \"Lat\": 41.4661\n            },\n            \"main\": {\n                \"temp\": 4.58,\n                \"feels_like\": 3.11,\n                \"temp_min\": 2.28,\n                \"temp_max\": 5.77,\n                \"pressure\": 1009,\n                \"humidity\": 73\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 1.79,\n                \"deg\": 355\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 2\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3169070,\n            \"dt\": 1638245355,\n            \"name\": \"Rome\",\n            \"coord\": {\n                \"Lon\": 12.4839,\n                \"Lat\": 41.8947\n            },\n            \"main\": {\n                \"temp\": 3.58,\n                \"feels_like\": 1.65,\n                \"temp_min\": 0.77,\n                \"temp_max\": 5.72,\n                \"pressure\": 1012,\n                \"humidity\": 82\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 2.06,\n                \"deg\": 30\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 0\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3171606,\n            \"dt\": 1638245237,\n            \"name\": \"Palestrina\",\n            \"coord\": {\n                \"Lon\": 12.889,\n                \"Lat\": 41.8355\n            },\n            \"main\": {\n                \"temp\": 0.43,\n                \"feels_like\": 0.43,\n                \"temp_min\": -1.55,\n                \"temp_max\": 3.06,\n                \"pressure\": 1012,\n                \"humidity\": 97\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 0.89,\n                \"deg\": 315\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 10\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3165624,\n            \"dt\": 1638245238,\n            \"name\": \"Tivoli\",\n            \"coord\": {\n                \"Lon\": 12.7989,\n                \"Lat\": 41.9609\n            },\n            \"main\": {\n                \"temp\": 1.7,\n                \"feels_like\": -1.14,\n                \"temp_min\": -0.25,\n                \"temp_max\": 4.36,\n                \"pressure\": 1015,\n                \"sea_level\": 1015,\n                \"grnd_level\": 985,\n                \"humidity\": 92\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 2.64,\n                \"deg\": 12\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 14\n            },\n            \"weather\": [\n                {\n                    \"id\": 801,\n                    \"main\": \"Clouds\",\n                    \"description\": \"few clouds\",\n                    \"icon\": \"02n\"\n                }\n            ]\n        },\n        {\n            \"id\": 3175298,\n            \"dt\": 1638245238,\n            \"name\": \"Ladispoli\",\n            \"coord\": {\n                \"Lon\": 12.0735,\n                \"Lat\": 41.9537\n            },\n            \"main\": {\n                \"temp\": 3.87,\n                \"feels_like\": -0.12,\n                \"temp_min\": 1.28,\n                \"temp_max\": 5.89,\n                \"pressure\": 1015,\n                \"sea_level\": 1015,\n                \"grnd_level\": 1014,\n                \"humidity\": 66\n            },\n            \"visibility\": 10000,\n            \"wind\": {\n                \"speed\": 5.09,\n                \"deg\": 3\n            },\n            \"rain\": null,\n            \"snow\": null,\n            \"clouds\": {\n                \"today\": 1\n            },\n            \"weather\": [\n                {\n                    \"id\": 800,\n                    \"main\": \"Clear\",\n                    \"description\": \"clear sky\",\n                    \"icon\": \"01n\"\n                }\n            ]\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

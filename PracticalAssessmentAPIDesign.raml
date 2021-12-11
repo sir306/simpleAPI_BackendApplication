@@ -1,0 +1,120 @@
+#%RAML 1.0
+---
+title: Web Services Practical Assessment
+baseUri: http://localhost:3000/api/{version}
+version: 1
+
+types:
+  Artist: !include RAMLtypes/Artist.raml
+  Album: !include RAMLtypes/Album.raml
+  Track: !include RAMLtypes/Track.raml
+
+/artists:
+  get:
+    description: get all artists
+    responses:
+      200:
+        body:
+          application/json:
+            type: Artist[]
+            example: !include exampleData/Artists.raml
+  /{artistID}:
+    put:
+      description: |
+        Update an existing resource
+      body:
+        application/json:
+          type: Artist
+          example: !include exampleData/Artist.raml
+      responses:
+        204:
+          description: |
+            Succesfully updated the resource
+  /{artistName}:
+    get:
+      description: |
+        get artist by name
+      body:
+        application/json:
+          type: Artist
+          example: !include exampleData/Artist.raml
+
+    /albums:
+      get:
+        description: get all albums of artist
+        responses:
+          200:
+            body:
+              application/json:
+                type: Album[]
+                example: !include exampleData/Albums.raml
+    /{albumName}:
+      delete:
+        description: |
+          Delete resource
+        responses:
+          204:
+            description: |
+              Succesfully deleted resource
+
+
+    /tracks:
+      get:
+        description: get all tracks of artist
+        responses:
+          200:
+            body:
+              application/json:
+                type: Track[]
+                example: !include exampleData/Tracks.raml
+      
+/tracks:
+  get:
+    description: get all tracks
+    responses:
+      200:
+        body:
+          application/json:
+            type: Track[]
+            example: !include exampleData/Tracks.raml
+  /{track}:
+    put:
+      description: |
+        Update an existing resource
+      body:
+        application/json:
+          type: Track
+          example: !include exampleData/Track.raml
+      responses:
+        204:
+          description: |
+            Succesfully updated the resource
+
+
+/albums:
+  get:
+    description: get all albums
+    responses:
+      200:
+        body:
+          application/json:
+            type: Album[]
+            example: !include exampleData/Albums.raml
+  /{album}:
+    /tracks:
+      get:
+        description: get all tracks of album
+        responses:
+          200:
+            body:
+              application/json:
+                type: Track[]
+                example: !include exampleData/Tracks.raml
+      /{track}:
+        delete:
+          description: |
+            Delete resource
+          responses:
+            204:
+              description: |
+                Succesfully deleted resource

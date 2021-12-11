@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "61ae977cc4796a3d6c182545"
+  },
+  "artist": "Eminem",
+  "name": "Guilty Conscience",
+  "album": "The Slim Shady LP"
+},{
+  "_id": {
+    "$oid": "61ae99b422376c137d7ba121"
+  },
+  "artist": "Eminem",
+  "name": "My Name Is",
+  "album": "The Slim Shady LP"
+}]
